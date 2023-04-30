@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+}
+.left-header{
+    display: flex;
+    flex: 1 1 auto;
+}
+.right-header{
+    flex: 1 1 auto;
+    justify-content: right;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    width: 50%;
+    height: 28px;
+    border-radius: 15px;
+    background-color: black;
+    border: 1px solid dimgray;
+}
+#google-logo{
+    max-width: 35%;
+}
+a{
+    margin: 10px;
+}
