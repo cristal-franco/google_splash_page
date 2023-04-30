@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    width: 100vw;
+    height: 100vh;
 }
 .container{
     display: flex;
@@ -49,9 +51,22 @@ body{
     outline: none;
     caret-color: white;
 }
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.search-button{
+    background-color: #2e2d34;
+    color: lightgray;
+    border: none;
+    padding: 9px 16px;
+    margin: 0% .75%;
+}
 #google-logo{
     max-width: 35%;
 }
 a{
     margin: 10px;
 }
+
