@@ -61,6 +61,9 @@ body{
     align-items: center;
     margin: 4% 0% 3% 0%;
 }
+.search-box:hover{
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
 .search-bar{
     background-color: #131212;
     border: none;
@@ -68,6 +71,7 @@ body{
     margin-left: 5px;
     color: white;
 }
+
 .search-bar:focus{
     outline: none;
     caret-color: white;
