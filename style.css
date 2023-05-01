@@ -66,6 +66,7 @@ body{
     border: none;
     width : 88%;
     margin-left: 5px;
+    color: white;
 }
 .search-bar:focus{
     outline: none;
@@ -82,6 +83,10 @@ body{
     border: none;
     padding: 9px 16px;
     margin: 0% .75%;
+    border-radius: 4px;
+}
+.search-button:hover{
+    border: solid;
 }
 #google-logo{
     max-width: 35%;
